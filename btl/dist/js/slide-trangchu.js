@@ -1,0 +1,11 @@
+$(document).ready(function(){
+    $('.silde').slick({
+      slidesToShow:1,
+      Infinite:true,
+      arrows:false,
+      autoplay:true,
+      autoplaySpeed:2000,
+      slidesToScroll:1,
+      dots:true,
+    });
+  });
